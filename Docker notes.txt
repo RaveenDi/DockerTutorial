@@ -1,0 +1,9 @@
+-------------------------------Docker basic commands----------------------------------
+docker pull redis ---------> pulling docker images from locally or docker hub
+docker run redis ----------> Run container with the system fies, configuration, image file
+docker run -d --name <name> redis-------> Run container in background
+docker sto 1az65xsas56as5x -> Stops the running docker container
+docker ps ------------------> get running docker container list
+docker ps -a ---------------> get running and stopped docker container list
+docker ps -p<port want to bind>:<container port> redis ----> run docker image on cutom port
+docker logs <id> or <name> --> to get logs of that container
